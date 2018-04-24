@@ -39,6 +39,10 @@
             <string>$LOCATION_ALWAYS_USAGE_DESCRIPTION</string>
         </config-file>
 
+        <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
+            <string>Background location-tracking is required</string>
+        </config-file>
+
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
             <string>$LOCATION_WHEN_IN_USE_USAGE_DESCRIPTION</string>
         </config-file>
